@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hashicorp/gh-action-jira/config"
 	"github.com/stretchr/testify/require"
-	"github.com/tomhjp/gh-action-jira/config"
 )
 
 func TestFindIssueKeys(t *testing.T) {

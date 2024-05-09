@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/tomhjp/gh-action-jira/config"
-	"github.com/tomhjp/gh-action-jira/gha"
-	"github.com/tomhjp/gh-action-jira/jira"
+	"github.com/hashicorp/gh-action-jira/config"
+	"github.com/hashicorp/gh-action-jira/gha"
+	"github.com/hashicorp/gh-action-jira/jira"
 )
 
 func main() {
