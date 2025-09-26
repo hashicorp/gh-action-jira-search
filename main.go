@@ -65,7 +65,7 @@ func findIssueKeys(config config.JiraConfig, jql string) ([]string, error) {
 		"jql":    {jql},
 		"fields": {"summary"}, // Specify fields summary purely to minimise the size of all the unused fields in the response.
 	}
-	respBody, err := jira.DoRequest(config, "GET", "/rest/api/3/search", query, nil)
+	respBody, err := jira.DoRequest(config, "GET", "/rest/api/3/search/jql", query, nil)
 	if err != nil {
 		return nil, err
 	}
